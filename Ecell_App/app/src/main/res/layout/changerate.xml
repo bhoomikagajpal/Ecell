@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ChangePrice" >
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Name" />
+
+        <EditText
+
+            android:id="@+id/phone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:hint="Phone"/>
+
+        <EditText
+
+            android:id="@+id/startUpName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Start Up Name"/>
+
+        <EditText
+
+            android:id="@+id/startUpDescribtion"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:hint="                     Start Up Description"/>
+
+    <EditText
+
+        android:id="@+id/email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"/>
+
+
+    <EditText
+
+        android:id="@+id/occupation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Occupation"/>
+
+
+        <Button
+            android:id="@+id/Proceed"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Update" />
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

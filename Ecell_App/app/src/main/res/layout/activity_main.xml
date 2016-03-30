@@ -1,0 +1,119 @@
+
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:weightSum="4"
+    android:id="@+id/container_toolbar"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TableRow
+    android:layout_height="0dp"
+    android:layout_width="match_parent"
+    android:layout_weight="1"
+    android:orientation="horizontal"
+    android:weightSum="2">
+    <Button
+        android:background="#01579B"
+        android:text="About Us"
+        android:textColor="#FFF"
+        style="?android:buttonBarButtonStyle"
+        android:layout_height="match_parent"
+        android:id="@+id/about_us"
+        android:layout_width="0dp"
+        android:layout_weight="1"/>
+    <Button
+        android:background="#0277BD"
+        android:text="Our Team"
+        android:id="@+id/team"
+        style="?android:buttonBarButtonStyle"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:textColor="#FFF"
+        android:layout_weight="1"/>
+    </TableRow>
+    <TableRow
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <Button
+            android:background="#0288D1"
+            android:text="Events"
+            android:id="@+id/event"
+            style="?android:buttonBarButtonStyle"
+            android:textColor="#FFF"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+        <Button
+            android:background="#039BE5"
+            android:text="Sponsors"
+            android:id="@+id/sponsors"
+            style="?android:buttonBarButtonStyle"
+            android:textColor="#FFF"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+    </TableRow>
+    <TableRow
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <Button
+            android:background="#448AFF"
+            android:text="Blog"
+            android:id="@+id/blog"
+            android:textColor="#FFF"
+            style="?android:buttonBarButtonStyle"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+        <Button
+            android:background="#536DFE"
+            android:textColor="#FFF"
+            android:id="@+id/social"
+            android:text="Social Initiative"
+            android:layout_height="match_parent"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+    </TableRow>
+    <TableRow
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <Button
+            android:background="#0091EA"
+            android:text="Incubation"
+            android:id="@+id/incubation"
+            android:textColor="#FFF"
+            android:layout_height="match_parent"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+        <Button
+            android:background="#2196F3"
+            android:text="Contact Us"
+            android:id="@+id/contact"
+            android:textColor="#FFF"
+            style="?android:buttonBarButtonStyle"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+    </TableRow>
+
+
+
+</TableLayout>

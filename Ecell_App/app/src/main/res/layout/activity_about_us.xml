@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.devesh.ecell_app.About_us"
+    android:weightSum="5"
+    android:orientation="vertical">
+
+    <TextView android:text="@string/ECELL" android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="22sp"
+        android:textColor="#111"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Description"
+        android:id="@+id/textView"
+        android:textColor="#222"
+        android:textSize="18sp"
+        android:layout_marginTop="10dip" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/para2"
+        android:textColor="#222"
+        android:textSize="18sp"
+        android:layout_marginTop="10dip"
+        android:id="@+id/textView2" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/para3"
+        android:textColor="#222"
+        android:textSize="18sp"
+        android:layout_marginTop="10dip"
+        android:id="@+id/textView3" />
+</LinearLayout>

@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Ecell NIT Raipur</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_about_us">About us</string>
+    <string name="title_activity_sponsors">Sponsors</string>
+    <string name="title_activity_events">Events</string>
+    <string name="title_activity_our_team">Our team</string>
+    <string name="title_activity_incubation">Incubation</string>
+    <string name="title_activity_contact_us">Contact us</string>
+    <string name="title_activity_blog">Blog</string>
+    <string name="title_activity_social__initiative">Social Initiative</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_friends">Friends</string>
+    <string name="nav_item_notifications">Messages</string>
+    <string name="ECELL">Entrepreneurship Cell NIT Raipur</string>
+    <string name="Description">Entrepreneurship Cel NIT Raipur is aimed at creating a
+        Entreprenuership culture in NIT Raipur. We conduct many workshop for Entreprenuerhsip awareness a
+        s well as on management and current market trends. </string>
+    <string name="para2">E-Cell has completed 3 years in existence and has
+        conducted a plethora of events like cricknometrica, ad-o-holic, D-Cube,
+        Entrepreneur Fair etc.</string>
+        <string name="para3">Current Goal of Ecell is to promote awareness about entrepreneurship.
+        For this, we hold our annual E-Summ
+        it each year, which was also bessed by presence of Mr Farhadd acidwala and Mr Shadab Hassan in 2014.
+        We also held a donation week to help those in needs.
+        E-Cell along with Technocracy organizes our annual techno-management fest every year. </string>
+
+    <string name="Social_Initiative">Social Initiative</string>
+    <string name="Make_Happen_week">Make Happen Week</string>
+    <string name="Description_about_make_happen_week">Entrepreneurship Cell NIT Raipur organised a donation event "Make happen Week"
+    which was aimed at providing the needy with clothes, books etc.</string>
+    <string name="Descrition_about_make_happen_week_2">Donation were done at 2 orphanages of Raipur with collections from about 200 students thus marking
+     our campaign as a successful one. </string>
+
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/about_us</item>
+        <item>@string/events</item>
+        <item>@string/sponsers</item>
+        <item>@string/guest_lectures</item>
+        <item>@string/workshops</item>
+        <item>@string/blog</item>
+
+    </string-array>
+    <integer-array name="images">
+        <item>@drawable/sir</item>
+        <item>@drawable/sir2</item>
+        <item>@drawable/sir4</item>
+        <item>@drawable/sir6</item>
+        <item>@drawable/sir8</item>
+    </integer-array>
+
+    <string name="title_messages">Messages</string>
+    <string name="title_friends">Friends</string>
+    <string name="title_home">Home</string>
+
+
+    <string name="about_us">About Us</string>
+
+    <string name="events">Events</string>
+    <string name="sponsers">Sponsers</string>
+    <string name="guest_lectures">Guest Lectures</string>
+    <string name="workshops">Workshops</string>
+    <string name="blog">Blog</string>
+    <string name="title_activity_change_rate">ChangeRate</string>
+
+</resources>
